@@ -1,0 +1,43 @@
+nop 10000000
+mov 10000001
+let 10000010
+add 10000011
+gto 10000100
+lbl 10000101
+equ 10000110
+imp 10000111
+dmp 10001000
+msc 10001001
+mpr 10001010
+csc 10001011
+cpr 10001100
+psh 10001101
+pop 10001110
+wrn 10001111
+
+NUL 10000000
+AX  10000001
+BX  10000010
+CX  10000011
+DX  10000100
+DNG 10000101
+TML 10000110
+TMH 10000111
+
+oprt arg1 arg2
+nop  -    -
+mov  rego regi
+add  reg  num
+let  reg  num
+gto  lbl  -
+equ  reg  reg
+lbl  lbl  -
+imp  num  -
+dmp  num  -
+msc  reg  -
+mpr  reg  -
+csc  reg  -
+cpr  reg  -
+psh  reg  -
+pop  reg  -
+wrn  -    -
